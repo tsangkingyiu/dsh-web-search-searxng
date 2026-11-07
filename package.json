@@ -1,7 +1,7 @@
 {
   "name": "@deepseek-ai/dsh-web-search-searxng",
   "description": "SearXNG-backed search provider (local meta-search JSON API) for the DeepSeek Harness web capability seam (ctx.web)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "access": "public"
   },
@@ -43,17 +43,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acdcgz/dsh-web-search-searxng.git"
+    "url": "git+https://github.com/tsangkingyiu/dsh-web-search-searxng.git"
   },
   "license": "MIT",
   "peerDependencies": {
-    "@deepseek-ai/dsh-agent": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-credentials": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-launch-environment": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-session": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-settings": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-web": "^0.1.0-rc.6",
-    "@deepseek-ai/cordis": "^4.0.1"
+    "@deepseek-ai/dsh-agent": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-credentials": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-launch-environment": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-session": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-settings": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-web": "^0.2.2-rc.1",
+    "@deepseek-ai/cordis": "^4.1.0"
   },
   "dependencies": {
     "@deepseek-ai/schemastery": "^3.18.1"
